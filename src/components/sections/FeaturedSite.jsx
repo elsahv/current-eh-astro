@@ -3,7 +3,7 @@ import { IoOpenOutline } from "react-icons/io5";
 const FeaturedSite = () => {
   return (
     <section
-      id="wrapper"
+      id="featured-site"
       class="text-black opacity-100 hover:opacity-80 my-5 pt-5 py-5 md:pl-5 pl-1 bg-"
     >
       <div id="" class="mt-5 ">
@@ -11,7 +11,7 @@ const FeaturedSite = () => {
           <div class="pb-2 font-medium text-">
             <div id="paragraph-container" class="font- 2xl:pr-5 2xl:mr-5">
               <h1 id="work-with-me-title" class="font- 2xl:text-4xl text-3xl ">
-                Work With Me
+                Featured Site
               </h1>
               <h3 class="pt-1 text-lg">
                 "Web Design for small business, creatives. Lorem ipsum dolor sit
