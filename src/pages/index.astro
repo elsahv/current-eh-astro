@@ -1,21 +1,30 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
-import LeftSide from "../components/LeftSide.astro";
 import SiteCard from "../components/SiteCard.astro";
-
-import WorkWithMe from "../components/sections/WorkWithMe.astro";
 import Contact from "../components/sections/Contact.astro";
 const allFeaturedSites = await Astro.glob("./websites/*.md");
 import FeaturedSite from "../components/sections/FeaturedSite.jsx";
-// import AboutConcept from "../components/AboutConcept.astro";
+import Header from "../components/Header.astro";
+import About from "../components/sections/About";
 ---
 
 <MainLayout>
-  <div id="flex" class="flex lg:flex-row flex-col bg-">
-    <LeftSide />
+  <div id="flex" class="flex lg:flex-row flex-col">
+    <div
+      id="LEFT-SIDE"
+      class="bg border-r border-black 2xl:p-5 p-2 bg- md:h-screen h-full md:absolute relative md:left-0 sm:bottom-0 md:w-2/5 w-full overflow-y-scroll overflow-x-hidden"
+    >
+      <div id="left-side-container" class="md:pr-3 md:mr-1">
+        <Header />
+
+        <About />
+        <a href="/#contact">Contact cta</a>
+      </div>
+    </div>
+
     <div
       id="RIGHT-SIDE"
-      class="bg- border-l border-onyx text-black h-screen md:absolute relative right-0 sm:bottom md:w-3/5 w-full overflow-y-scroll overflow-x-hidden xl:p-5"
+      class="bg- border-l border-onyx text-black md:h-screen h-full md:absolute relative right-0 sm:bottom md:w-3/5 w-full md:overflow-y-scroll overflow-x-hidden xl:p-5"
     >
       <div id="" class="bg- px-5">
         <FeaturedSite />
@@ -45,7 +54,6 @@ import FeaturedSite from "../components/sections/FeaturedSite.jsx";
             }
           </div>
         </div>
-        <!-- <WorkWithMe /> -->
         <Contact />
       </div>
     </div>

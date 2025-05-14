@@ -14,6 +14,16 @@ const items = [
 const About = () => {
   return (
     <>
+      <div
+        id="paragraph-container"
+        class="ml-2 pl-1 2xl:pr-5 2xl:mr-5 mt-[90px]"
+      >
+        <p class="text-2xl pt-5">Hi there... im Elsa.</p>
+        <p class="pb-1 mb-1 text-lg">
+          I help small business owners start and maintain their websites, along
+          with content creation.
+        </p>
+      </div>
       {/* ABOUT ME */}
       <div id="about-me" class="mb-5 pb-5  bg-">
         <img
@@ -37,7 +47,7 @@ const About = () => {
 
       {/*ABOUT PROJECTS */}
       <div id="about-" class="h- mt-5">
-        <div id="" class="2xl:pr-5 2xl:mr-5 pl-4 pr-3">
+        <div id="" class="mt-5 2xl:pr-5 2xl:mr-5 pl-4 pr-3">
           <h2>Expertise gained through project learning</h2>
           <div class="bg- pt-1 pb-5 mb-5 ">
             {items.map((item) => (

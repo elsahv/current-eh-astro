@@ -10,12 +10,13 @@ const FeaturedSite = () => {
         <div id="" class="md:mr-5 mx-0">
           <div class="pb-2 font-medium text-">
             <div id="paragraph-container" class="font- 2xl:pr-5 2xl:mr-5">
-              <h1 id="work-with-me-title" class="font- 2xl:text-4xl text-3xl ">
-                Featured Website
+              <h1 id="work-with-me" class="font- 2xl:text-4xl text-3xl ">
+                Work With Me
               </h1>
               <h3 class="pt-1 text-lg">
                 Most of my time is spent on working on my new venture: Laughing
-                Coyote Dev, a "Web Design service for small business, creatives.
+                Coyote Dev, a "Web Design servic e for small business,
+                creatives.
               </h3>
               {/* 
               <p>
@@ -24,14 +25,9 @@ const FeaturedSite = () => {
 
               {/*  */}
               <div id="img-wrapper" class="px-1 py-5">
-                <a href="https://laughingcoyote.dev">
+                <a href="/laughing-coyote-dev">
                   <div class="flex items-center  text-xl pt-5 mt-5 ">
-                    <IoOpenOutline />{" "}
-                    <p class="pl-1">
-                      {" "}
-                      sdfdsf Lorem ipsum dolor sit amet consectetur adipisicing
-                      elit. Doloremque rem accusamus debitis
-                    </p>
+                    <IoOpenOutline /> <p class="pl-1">about laughing coyote</p>
                   </div>
 
                   <img

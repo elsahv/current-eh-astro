@@ -1,0 +1,22 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import TestMarkdownHeader from "../components/tests/TestMarkdownHeader.astro";
+import WorkWithMe from "../components/sections/WorkWithMe.astro";
+---
+
+<MainLayout>
+  <TestMarkdownHeader />
+  <div
+    id="right-side-markdown-container"
+    class="border-l border-onyx md:h-screen h-full md:absolute relative right-0 md:w-4/5 w-full overflow-y-scroll overflow-x-hidden 2xl:p-5 md:p-3 md:ml-[30px]"
+  >
+    <div class="bg- 2xl:p-5 p-2 md:mx-5 mx-1">
+      <img
+        src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt=""
+        class="border border-gray-300"
+      />
+      <WorkWithMe />
+    </div>
+  </div>
+</MainLayout>
