@@ -11,18 +11,27 @@ const FeaturedSite = () => {
           <div class="pb-2 font-medium text-">
             <div id="paragraph-container" class="font- 2xl:pr-5 2xl:mr-5">
               <h1 id="work-with-me-title" class="font- 2xl:text-4xl text-3xl ">
-                Featured Site
+                Featured Website
               </h1>
               <h3 class="pt-1 text-lg">
-                "Web Design for small business, creatives. Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Doloremque delectus accusamus
-                facilis"
+                Most of my time is spent on working on my new venture: Laughing
+                Coyote Dev, a "Web Design service for small business, creatives.
               </h3>
+              {/* 
+              <p>
+                <a href="">see about for more info...</a>
+              </p> */}
+
               {/*  */}
               <div id="img-wrapper" class="px-1 py-5">
                 <a href="https://laughingcoyote.dev">
                   <div class="flex items-center  text-xl pt-5 mt-5 ">
-                    <IoOpenOutline /> <p class="pl-1">Laughing Coyote Dev</p>
+                    <IoOpenOutline />{" "}
+                    <p class="pl-1">
+                      {" "}
+                      sdfdsf Lorem ipsum dolor sit amet consectetur adipisicing
+                      elit. Doloremque rem accusamus debitis
+                    </p>
                   </div>
 
                   <img

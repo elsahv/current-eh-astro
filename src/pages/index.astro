@@ -7,6 +7,7 @@ import WorkWithMe from "../components/sections/WorkWithMe.astro";
 import Contact from "../components/sections/Contact.astro";
 const allFeaturedSites = await Astro.glob("./websites/*.md");
 import FeaturedSite from "../components/sections/FeaturedSite.jsx";
+// import AboutConcept from "../components/AboutConcept.astro";
 ---
 
 <MainLayout>
@@ -20,7 +21,7 @@ import FeaturedSite from "../components/sections/FeaturedSite.jsx";
         <FeaturedSite />
 
         <div id="side-projects" class="bg- mr-2 mt-[155px] md:px-5">
-          <h1 class="font- 2xl:text-4xl text-3xl">Creative Ideas</h1>
+          <h1 class="font- 2xl:text-4xl text-3xl">Creative Concepts</h1>
           <p id="services" class="bg- p-1">
             In my free time, I enjoy building out my other projects with js
             frameworks and php wp I've built javascript projects to not only
@@ -44,7 +45,7 @@ import FeaturedSite from "../components/sections/FeaturedSite.jsx";
             }
           </div>
         </div>
-        <WorkWithMe />
+        <!-- <WorkWithMe /> -->
         <Contact />
       </div>
     </div>

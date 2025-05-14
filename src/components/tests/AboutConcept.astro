@@ -1,0 +1,23 @@
+---
+export interface Props {
+  productDef: string;
+  targetAudience: string;
+  mainGoal: string;
+  audienceMessage: string;
+  keyFeatures: string;
+}
+
+const { productDef, targetAudience, mainGoal, audienceMessage, keyFeatures } =
+  Astro.props as Props;
+---
+
+<div id="about-lc" class="bg-test1">
+  <h2>About LC</h2>
+  <ul>
+    <li>{productDef}</li>
+    <li>{targetAudience}</li>
+    <li>{mainGoal}</li>
+    <li>{audienceMessage}</li>
+    <li>{keyFeatures}</li>
+  </ul>
+</div>

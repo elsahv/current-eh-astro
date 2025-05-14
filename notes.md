@@ -1,3 +1,11 @@
+           {/* <AboutConcept
+          productDef="Jungle-What is the product, service, or idea you're promoting?"
+          targetAudience="Who is your target audience?"
+          mainGoal=" What is the main goal of the campaign? (e.g. brand awareness, sales, community building)"
+          audienceMessage="What feeling or message do you want the audience to take away?"
+          keyFeatures=" Are there any key features, benefits, or values that should be highlighted?"
+        />   */}
+
 <!--! 4/30/25- undecided about sections, seperate into section numbers -->
 
 section 1 comp- web development
