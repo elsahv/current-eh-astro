@@ -16,6 +16,14 @@ tags: ["astro", "blogging", "learning in public"]
 
 # visit graphic journal
 
+      <AboutConcept
+          productDef="Jungle-What is the product, service, or idea you're promoting?"
+          targetAudience="Who is your target audience?"
+          mainGoal=" What is the main goal of the campaign? (e.g. brand awareness, sales, community building)"
+          audienceMessage="What feeling or message do you want the audience to take away?"
+          keyFeatures=" Are there any key features, benefits, or values that should be highlighted?"
+        />
+
 **2/4/25**: As of now, I'm changing this site from a full webs design service to just a blog. Lesson learned... gotta walk before I run.
 
 Share the backstory of how the website came into existence. This could include the inspiration behind its creation, the individuals or team involved, and any challenges or obstacles they faced in bringing it to life.

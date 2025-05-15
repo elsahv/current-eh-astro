@@ -1,4 +1,5 @@
 ---
+import WorkWithMe from "../components/sections/WorkWithMe.astro";
 import TestMarkdownHeader from "../components/tests/TestMarkdownHeader.astro";
 import MainLayout from "./MainLayout.astro";
 
@@ -31,8 +32,11 @@ const { frontmatter } = Astro.props;
         </div>
         <div id="website-content" class="pl-5 2xl:w-3/4 pt-4 dropshadow-3xl">
           <div class="pt-2 opacity-80 text-lg">
-            <h2 class="text-3xl pt-5 mt-5 text-onyx font-">Project journal</h2>
+            <h2 class="text-3xl pt-5 mt-5 text-onyx font-">
+              Where the site is so far...
+            </h2>
             <slot />
+            <WorkWithMe />
           </div>
         </div>
       </section>

@@ -15,6 +15,14 @@ githubUrl: "https://github.com/elsahv/-the-running-quail"
 tags: ["astro", "blogging", "learning in public"]
 ---
 
+      <AboutConcept
+          productDef="Jungle-What is the product, service, or idea you're promoting?"
+          targetAudience="Who is your target audience?"
+          mainGoal=" What is the main goal of the campaign? (e.g. brand awareness, sales, community building)"
+          audienceMessage="What feeling or message do you want the audience to take away?"
+          keyFeatures=" Are there any key features, benefits, or values that should be highlighted?"
+        />
+
 # **headline 1-** An illustrative blog about cooking for neurodivergents
 
 # **headline 2-** To offer info about adhd mgmt and getting through life.

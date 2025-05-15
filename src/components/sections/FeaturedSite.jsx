@@ -15,8 +15,9 @@ const FeaturedSite = () => {
               </h1>
               <h3 class="pt-1 text-lg">
                 Most of my time is spent on working on my new venture: Laughing
-                Coyote Dev, a "Web Design servic e for small business,
-                creatives.
+                Coyote Dev, a "Web Design service for small businesses and
+                creatives. I built LC to challenge my creativeness and
+                imagination, all while exploring a side hustle potential.
               </h3>
               {/* 
               <p>
@@ -27,11 +28,11 @@ const FeaturedSite = () => {
               <div id="img-wrapper" class="px-1 py-5">
                 <a href="/laughing-coyote-dev">
                   <div class="flex items-center  text-xl pt-5 mt-5 ">
-                    <IoOpenOutline /> <p class="pl-1">about laughing coyote</p>
+                    <IoOpenOutline /> <p class="pl-1"> view site</p>
                   </div>
 
                   <img
-                    src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    src="https://dl.dropboxusercontent.com/scl/fi/36vnm2e663uln6akmex4d/lc.png?rlkey=lgim54nbp0u11mviylee29hyj&st=1nuybim1&dl=0"
                     alt=""
                     class="border border-gray-300"
                   />
