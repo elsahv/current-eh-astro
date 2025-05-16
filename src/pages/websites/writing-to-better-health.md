@@ -2,7 +2,7 @@
 id: 3
 layout: ../../layouts/MarkdownPostLayout.astro
 # title: "My First Blog Post"
-title: "Writing to Better Health"
+title: "and Writing to Better Health"
 pubDate: 2022-07-01
 testItem1: "an illustrative blog about cooking for neurodivergents"
 author: "Astro Learner"

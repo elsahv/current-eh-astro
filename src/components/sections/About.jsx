@@ -48,7 +48,15 @@ const About = () => {
       {/*ABOUT PROJECTS */}
       <div id="about-" class="h- mt-5">
         <div id="" class="mt-5 2xl:pr-5 2xl:mr-5 pl-4 pr-3">
-          <h2>Expertise gained through project learning</h2>
+          {/* <h2 class="py-1">
+      Tagline: "the world is so niched now, I can help people combine their own
+      random niches, and create unique niche!!!- "  
+    </h2>   */}
+
+          <h2>
+            Expertise gained through project learning and combining unique
+            niches
+          </h2>
           <div class="bg- pt-1 pb-5 mb-5 ">
             {items.map((item) => (
               <div className="">

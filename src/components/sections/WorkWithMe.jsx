@@ -1,9 +1,9 @@
 import { IoOpenOutline } from "react-icons/io5";
 
-const FeaturedSite = () => {
+const WorkWithMe = () => {
   return (
     <section
-      id="featured-site"
+      id="work-with-me"
       class="text-black opacity-100 hover:opacity-80 my-5 pt-5 py-5 md:pl-5 pl-1 bg-"
     >
       <div id="" class="mt-5 ">
@@ -14,10 +14,11 @@ const FeaturedSite = () => {
                 Work With Me
               </h1>
               <h3 class="pt-1 text-lg">
-                Most of my time is spent on working on my new venture: Laughing
-                Coyote Dev, a "Web Design service for small businesses and
-                creatives. I built LC to challenge my creativeness and
-                imagination, all while exploring a side hustle potential.
+                Most of my time is spent working on my new venture: Laughing
+                Coyote Dev. Laughing Coyote is a "web design service for small
+                businesses and creatives. I've featured this as my main project
+                to challenge my creativeness and imagination, all while
+                exploring a side hustle potential.
               </h3>
               {/* 
               <p>
@@ -47,4 +48,4 @@ const FeaturedSite = () => {
   );
 };
 
-export default FeaturedSite;
+export default WorkWithMe;

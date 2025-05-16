@@ -1,5 +1,4 @@
 const testitems = [
-  // { item1: "featured-website", link: "/#featured-site" },
   { item1: "work with me", link: "/#work-with-me" },
   { item1: "creative concepts", link: "/#side-projects" },
   { item1: "contact", link: "/#contact" },

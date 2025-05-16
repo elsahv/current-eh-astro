@@ -3,7 +3,7 @@ import MainLayout from "../layouts/MainLayout.astro";
 import SiteCard from "../components/SiteCard.astro";
 import Contact from "../components/sections/Contact.astro";
 const allFeaturedSites = await Astro.glob("./websites/*.md");
-import FeaturedSite from "../components/sections/FeaturedSite.jsx";
+import WorkWithMe from "../components/sections/WorkWithMe.jsx";
 import Header from "../components/Header.astro";
 import About from "../components/sections/About";
 ---
@@ -27,7 +27,7 @@ import About from "../components/sections/About";
       class="bg- border-l border-onyx text-black md:h-screen h-full md:absolute relative right-0 sm:bottom md:w-3/5 w-full md:overflow-y-scroll overflow-x-hidden xl:p-5"
     >
       <div id="" class="bg- px-5">
-        <FeaturedSite />
+        <WorkWithMe />
 
         <div id="side-projects" class="bg- mr-2 mt-[155px] md:px-5">
           <h1 class="font- 2xl:text-4xl text-3xl">Creative Concepts</h1>
