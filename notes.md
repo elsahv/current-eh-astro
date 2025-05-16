@@ -1,11 +1,12 @@
 CURRENT: 5/14/25
 
-\_ <AboutConcept
-          productDef="Jungle-What is the product, service, or idea you're promoting?"
+            \_ <AboutConcept
+                      productDef="Jungle-What is the product, service, or idea you're promoting?"
           targetAudience="Who is your target audience?"
           mainGoal=" What is the main goal of the campaign? (e.g. brand awareness, sales, community building)"
-          audienceMessage="What feeling or message do you want the audience to take away?"
           keyFeatures=" Are there any key features, benefits, or values that should be highlighted?"
+          audienceMessage="What feeling or message do you want the audience to take away?"
+
         />
 
 <!--! 4/30/25- undecided about sections, seperate into section numbers -->

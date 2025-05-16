@@ -13,32 +13,36 @@ const WorkWithMe = () => {
               <h1 id="work-with-me" class="font- 2xl:text-4xl text-3xl ">
                 Work With Me
               </h1>
-              <h3 class="pt-1 text-lg">
+              <p class="pt-1 text-lg">
                 Most of my time is spent working on my new venture: Laughing
                 Coyote Dev. Laughing Coyote is a "web design service for small
                 businesses and creatives. I've featured this as my main project
                 to challenge my creativeness and imagination, all while
                 exploring a side hustle potential.
-              </h3>
-              {/* 
-              <p>
-                <a href="">see about for more info...</a>
-              </p> */}
+              </p>
+              <p class="pt-3">
+                CREATE SHORTER VERSION::::1st paragraph, elaborate and
+                explanation of lc/ Core Idea: Position your service as a digital
+                atelier—a creative studio where your clients' visions are
+                translated into vivid, handcrafted websites. Think of each site
+                as a collaborative artwork: your client brings the inspiration,
+                and you bring the technical brushstrokes "What separates web
+                developers from Ai? Human innovation!
+              </p>
 
-              {/*  */}
-              <div id="img-wrapper" class="px-1 py-5">
-                <a href="/laughing-coyote-dev">
-                  <div class="flex items-center  text-xl pt-5 mt-5 ">
-                    <IoOpenOutline /> <p class="pl-1"> view site</p>
-                  </div>
-
+              <a href="/laughing-coyote-dev">
+                <div class="mt-1 pl-1 flex items-center text-carribean">
+                  <IoOpenOutline />
+                  about
+                </div>{" "}
+                <div id="img-wrapper" class="  bg-">
                   <img
                     src="https://dl.dropboxusercontent.com/scl/fi/36vnm2e663uln6akmex4d/lc.png?rlkey=lgim54nbp0u11mviylee29hyj&st=1nuybim1&dl=0"
                     alt=""
-                    class="border border-gray-300"
+                    class="border border-gray-300 mt-5"
                   />
-                </a>
-              </div>
+                </div>
+              </a>
             </div>
             <br />
           </div>

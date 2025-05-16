@@ -32,6 +32,10 @@ tags: ["astro", "blogging", "learning in public"]
 
 # **headline 4-** recognize the need for RQ, a way to bring Morongo Basin Artists together.
 
+img
+img
+img
+
 **2/8/25**: As of now, I'm changing this site from a full webs design service to just a blog. Lesson learned... gotta walk before I run.
 
 Share the backstory of how the website came into existence. This could include the inspiration behind its creation, the individuals or team involved, and any challenges or obstacles they faced in bringing it to life.
