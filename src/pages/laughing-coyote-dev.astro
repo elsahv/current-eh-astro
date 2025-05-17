@@ -1,110 +1,29 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
 import TestMarkdownHeader from "../components/tests/TestMarkdownHeader.astro";
-import CustomDigitalArtistry from "../components/tests/CustomDigitalArtistry.astro";
+
+import AboutSection from "../components/lc-tests/AboutSection.astro";
+import MainGoals from "../components/lc-tests/MainGoals.astro";
+import KeyFeatures from "../components/lc-tests/KeyFeatures.astro";
 ---
 
 <MainLayout>
   <TestMarkdownHeader />
   <div
     id="right-side-markdown-container"
-    class="bg- border-l border-onyx md:h-screen h-full md:absolute relative right-0 md:w-4/5 w-full overflow-y-scroll overflow-x-hidden 2xl:p-5 md:p-3 md:ml-[50px] pl-[50px]"
+    class="bg-munsell border-l border-onyx md:h-screen h-full md:absolute relative right-0 md:w-4/5 w-full overflow-y-scroll overflow-x-hidden 2xl:p-5 md:p-3 md:ml-[50px] pl-[50px]"
   >
+    <!-- TODO: ABOUT SECTION -->
+    <AboutSection />
+    <!-- TODO: MAIN GOALS SECTION-->
+    <MainGoals />
+    <!-- TODO: KEY FEATURES SECTION-->
+    <KeyFeatures />
     <div
       id="work-with-me"
-      class="bg- pt-2 md:pl-5 2xl:px-3 my-5 2xl:mr-[130px] 2xl:pr-5 bg-"
+      class="pt-2 md:pl-5 2xl:px-3 my-5 2xl:mr-[130px] 2xl:pr-5"
     >
       <div id="padding" class="bg- 2xl:p-5 p-2 md:mx-5 mx-1">
-        <h1 id="work-with-me-title" class="2xl:text-4xl text-3xl">
-          About Laughing Coyote Dev
-        </h1>
-
-        <!-- ? -->
-        <!-- !PRODUCT DEF -->
-        <!--TODO: productDef="LC-What is the product, service, or idea you're promoting?" v-->
-
-        <section class="py-5" id="PRODUCT DEFINITION">
-          <h2 class="pt-5">PRODUCT DEFINITION</h2>
-          <p class="">
-            CREATE LONGER VERSION:::: 1st paragraph, elaborate and explanation
-            of lc/ Core Idea: Position your service as a digital atelier—a
-            creative studio where your clients' visions are translated into
-            vivid, handcrafted websites. Think of each site as a collaborative
-            artwork: your client brings the inspiration, and you bring the
-            technical brushstrokes "What separates web developers from Ai? Human
-            innovation!
-          </p>
-          <p>
-            Most web design services focus on tech, speed, or business
-            optimization. Few lean into artisanal design, emotional
-            storytelling, and cozy aesthetics the way this concept (lc) does.
-          </p>
-        </section>
-        <img
-          src="https://dl.dropboxusercontent.com/scl/fi/36vnm2e663uln6akmex4d/lc.png?rlkey=lgim54nbp0u11mviylee29hyj&st=1nuybim1&dl=0"
-          alt=""
-          class="border border-gray-300 my-2"
-        />
-
-        <!-- targetAudience -->
-        <!-- mainGoal -->
-        <!-- audienceMessage -->
-        <!-- keyFeatures -->
-        <!-- ? -->
-
-        <!-- *v -->
-        <!-- *v -->
-        <!-- *v -->
-        <!-- *v -->
-        <!-- *v -->
-        <!-- *v -->
-
-        <!-- !ALL THE REST vvv   -->
-        <!-- TODO: targetAudience="Who is your target audience?"v -->
-        <section class="py-3" id="TARGET AUDIENCE">
-          <h2>TARGET AUDIENCE</h2>
-          <p>The people I'm looking to serve...</p>
-          <p class="bg-">
-            Unique Selling Point: You're not just designing websites—you’re
-            co-creating digital homes for passionate people. You get their
-            creative process because you share it.
-          </p>
-        </section>
-
-        <!-- TODO: mainGoal=" What is the main goal of the campaign? (e.g. brand awareness, sales, community building)" v-->
-        <section
-          class="my-5 border border-black px-3 py-5"
-          id="MAIN GOAL OF SITE"
-        >
-          <h2>MAIN GOAL OF SITE"</h2>
-          <CustomDigitalArtistry />
-        </section>
-
-        <!-- TODO: keyFeatures=" Are there any key features, benefits, or values that should be highlighted?" v-->
-        <section class="bg-" id="KEY FEATURES">
-          <h2>Key Features/Offers:</h2>
-          <ul class="bg-">
-            <li>
-              Portfolio-First Design: Build sites that feel like immersive
-              galleries or journals.
-            </li>
-            <li>
-              Storytelling Frameworks: Let creatives tell their brand story
-              visually and emotionally.
-            </li>
-            <li>
-              Creative Companion Calls: A process that feels more like an artist
-              collaboration than a business transaction.
-            </li>
-            <li>
-              “Palette Picker” Questionnaire: Help clients choose colors based
-              on their work and style.
-            </li>
-          </ul>
-        </section>
-
-        <!-- TODO: keyFeatures------^^^^^^^^^^^^" -->
-
         <div class="bg- mt-[50px]">
           <div
             id="HIGHLIGHTS THE KEYFEATURES AND AUDIENCE MESSAGE SECTIONS"
@@ -137,32 +56,6 @@ import CustomDigitalArtistry from "../components/tests/CustomDigitalArtistry.ast
             </div>
           </div>
         </div>
-
-        <!-- TODO: audienceMessage="What feeling or message do you want the audience to take away?" v-->
-        <section class="my-5" id="AUDIENCE MESSAGE">
-          <h2>AUDIENCE MESSAGE</h2>
-          <ul
-            class="bg-"
-            id="audience message: to feel good about having a site that displays their own messages"
-          >
-            <h2>Visual/Brand Mood:</h2>
-            <li>Cozy, colorful, and whimsical</li>
-            <li>Hand-drawn elements, textured backgrounds, natural shapes</li>
-            <li>Soft, custom typography and pastel palettes</li>
-          </ul>
-        </section>
-        <!-- TODO: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ v-->
-        <!-- *^ -->
-        <!-- *^ -->
-        <!-- *^ -->
-        <!-- *^ -->
-        <!-- *^ -->
-        <!-- *^ -->
-        <!-- *^ -->
-        <!-- *^ -->
-        <!-- *^ -->
-        <!-- *^ -->
-        <!-- *^ -->
       </div>
     </div>
   </div>
