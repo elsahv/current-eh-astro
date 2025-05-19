@@ -4,11 +4,11 @@ const WorkWithMe = () => {
   return (
     <section
       id="work-with-me"
-      class="text-black opacity-100 hover:opacity-80 my-5 pt-5 py-5 md:pl-5 pl-1 bg-"
+      class=" opacity-100 hover:opacity-80 my-5 pt-5 py-5 md:pl-5 pl-1 bg-"
     >
       <div id="" class="mt-5 ">
         <div id="" class="md:mr-5 mx-0">
-          <div class="pb-2 font-medium text-">
+          <div class="pb-2 font- text-">
             <div id="paragraph-container" class="font- 2xl:pr-5 2xl:mr-5">
               <h1 id="work-with-me" class="font- 2xl:text-4xl text-3xl ">
                 Work With Me
@@ -20,7 +20,7 @@ const WorkWithMe = () => {
                 to challenge my creativeness and imagination, all while
                 exploring a side hustle potential.
               </p>
-              <p class="pt-3">
+              {/* <p class="pt-3">
                 CREATE SHORTER VERSION::::1st paragraph, elaborate and
                 explanation of lc/ Core Idea: Position your service as a digital
                 atelier—a creative studio where your clients' visions are
@@ -28,7 +28,7 @@ const WorkWithMe = () => {
                 as a collaborative artwork: your client brings the inspiration,
                 and you bring the technical brushstrokes "What separates web
                 developers from Ai? Human innovation!
-              </p>
+              </p> */}
 
               <a href="/laughing-coyote-dev">
                 <div class="mt-1 pl-1 flex items-center text-carribean">
