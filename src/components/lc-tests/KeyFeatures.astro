@@ -1,29 +1,31 @@
 ---
-
+const items = [
+  {
+    item: "Portfolio-First Design: Build sites that feel like immersive galleries or journals.",
+  },
+  {
+    item: "Storytelling Frameworks: Let creatives tell their brand story visually and emotionally.",
+  },
+  {
+    item: "    Creative Companion Calls: A process that feels more like an artist collaboration than a business transaction. Think of each site as a collaborative artwork: your client brings the inspiration, and you bring the technical brushstrokes",
+  },
+  {
+    item: "  “Palette Picker” Questionnaire: Help clients choose colors based on their work and style.",
+  },
+];
 ---
 
-<section id="KEY FEATURES SECTION" class="bg-rosyBrown">
-  <section class="" id="KEY FEATURES">
-    <h2>Key Features/Offers:</h2>
-    <ul class="bg-">
-      <li>
-        Portfolio-First Design: Build sites that feel like immersive galleries
-        or journals.
-      </li>
-      <li>
-        Storytelling Frameworks: Let creatives tell their brand story visually
-        and emotionally.
-      </li>
-      <li>
-        Creative Companion Calls: A process that feels more like an artist
-        collaboration than a business transaction. Think of each site as a
-        collaborative artwork: your client brings the inspiration, and you bring
-        the technical brushstrokes
-      </li>
-      <li>
-        “Palette Picker” Questionnaire: Help clients choose colors based on
-        their work and style.
-      </li>
-    </ul>
-  </section>
+<section class="flex justify-center my-5 py-5">
+  <div id="KEY FEATURES SECTION" class="pt-5 px-[50px] mt-5 w-3/4">
+    <div id="KEY FEATURES  class=" pl-2" ">
+      <h2 class="pb-1 text-2xl underline">Key Features/Offers:</h2>
+      {
+        items.map((item) => (
+          <ul class="text-lg">
+            <li class="py-1 mb-4 ">{item.item}</li>
+          </ul>
+        ))
+      }
+    </div>
+  </div>
 </section>

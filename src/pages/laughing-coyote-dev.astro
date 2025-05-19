@@ -1,62 +1,23 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
 import TestMarkdownHeader from "../components/tests/TestMarkdownHeader.astro";
-
 import AboutSection from "../components/lc-tests/AboutSection.astro";
 import MainGoals from "../components/lc-tests/MainGoals.astro";
 import KeyFeatures from "../components/lc-tests/KeyFeatures.astro";
+import WebsitesGrid from "../components/lc-tests/WebsitesGrid.astro";
 ---
 
 <MainLayout>
   <TestMarkdownHeader />
   <div
-    id="right-side-markdown-container"
-    class="bg-munsell border-l border-onyx md:h-screen h-full md:absolute relative right-0 md:w-4/5 w-full overflow-y-scroll overflow-x-hidden 2xl:p-5 md:p-3 md:ml-[50px] pl-[50px]"
+    id="right-side-markdown-wrapper"
+    class="flex justify-center bg- border-l border-onyx md:h-screen h-full md:absolute relative right-0 md:w-4/5 overflow-y-scroll overflow-x-hidden 2xl:p-5 md:p-3 md:ml-[50px] pl-[50px]"
   >
-    <!-- TODO: ABOUT SECTION -->
-    <AboutSection />
-    <!-- TODO: MAIN GOALS SECTION-->
-    <MainGoals />
-    <!-- TODO: KEY FEATURES SECTION-->
-    <KeyFeatures />
-    <div
-      id="work-with-me"
-      class="pt-2 md:pl-5 2xl:px-3 my-5 2xl:mr-[130px] 2xl:pr-5"
-    >
-      <div id="padding" class="bg- 2xl:p-5 p-2 md:mx-5 mx-1">
-        <div class="bg- mt-[50px]">
-          <div
-            id="HIGHLIGHTS THE KEYFEATURES AND AUDIENCE MESSAGE SECTIONS"
-            class="bg- my-5 py-5 mt-5 pr-3"
-          >
-            <div id="TEST-grid" class="grid grid-cols-2 gap-10 mt-5">
-              <img
-                src="https://dl.dropboxusercontent.com/scl/fi/g23z3n6u9joennznyqxc4/lc-9-20-24.png?rlkey=q75joo6od6ixkfoxr9q57kfkb&st=19kz2kwm&dl=0"
-                alt=""
-                class="border border-gray-400 h-[350px] w-full"
-              />
-
-              <img
-                src="https://images.pexels.com/photos/304664/pexels-photo-304664.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                alt=""
-                class="border border-gray-400 h-[350px] w-full"
-              />
-
-              <img
-                src="https://dl.dropboxusercontent.com/scl/fi/r2memu9vr71tw03oe57kz/IMG_0300.jpg?rlkey=k9upvwvx4vudmyv88f8srhxlu&st=g5s7cqo5&dl=0"
-                alt=""
-                class="border border-gray-400 h-[350px] w-full"
-              />
-
-              <img
-                src="https://images.pexels.com/photos/2893525/pexels-photo-2893525.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                alt=""
-                class="border border-gray-400 h-[350px] w-full"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
+    <div id="right-side-markdown-container" class="p-5 ml-[50px] mr-[150px]">
+      <AboutSection />
+      <MainGoals />
+      <KeyFeatures />
+      <WebsitesGrid />
     </div>
   </div>
 </MainLayout>

@@ -1,10 +1,49 @@
 ---
-import CustomDigitalArtistry from "../../components/tests/CustomDigitalArtistry.astro";
+const items = [
+
+{
+  title:"title",
+    p1: "paragraph 1",
+    p2: "No, the “Canvas & Code” concept—positioning web design as a collaborative, artistic process tailored specifically for creatives—is relatively niche and underused.",
+    p3: "  That said, a handful of designers do operate in adjacent spaces (e.g.,studio brands targeting indie artists or feminine brands), but your unique blend of handmade feel + custom digital artistry gives you a strong point of differentiation."
+},
+  {
+    title:"Highly Personalized",
+    p1: "Tailored to the client’s creative style, voice, and aesthetic. Informed by the client’s artwork, medium, or story",
+    p2: "  Audience message: to feel good about having a site that displays their own messages",
+    p3: "    Avoids templates and generic layouts in favor of expressive, unique design elements. What separates web developers from Ai? Human innovation!"
+  },
+  {
+    title:"Artistically Driven",
+    p1: "  Prioritizes mood, composition, and visual storytelling over corporate polish",
+    p2: "p2-Often includes hand-drawn elements, textures, painterly color palettes, or collage-style layouts",
+    p3: "p3-   Draws inspiration from fine art, zines, sketchbooks, journals, or craftwork"
+  },
+  {
+    title:"Crafted in Code",
+    p1:"Combines the fluidity of visual art with the structure of web development",
+    p2: "Responsive and functional, but emotionally resonant and alive.         May include interactive touches like hover effects, transitions, or animations that feel whimsical or tactile",
+    p3: " So when you say you offer custom digital artistry, you're saying: “I don’t just build websites—I co-create digital experiences that feel like an extension of your creative work, using thoughtful design, expressive visuals, and personal attention."
+  },
+]
 ---
 
-<section id="MAIN-GOALS-SECTION" class="bg-test2">
-  <div class="border border-black" id="MAIN GOAL OF SITE">
-    <h2>MAIN GOAL OF SITE"</h2>
-    <CustomDigitalArtistry />
+<section id="MAIN-GOALS-SECTION" class="pl-4 my-5">
+  <div class="bg-gray-300 text-black border border-black py-5 pl-3 pr-2" id="MAIN GOAL OF SITE">
+ <h2>MAIN GOAL OF SITE"</h2>
+     <div class="bg-">
+      <p class="font-semibold pb-">
+        Custom digital artistry refers to the practice of crafting digital
+        designs—like websites, illustrations, or interfaces—that are:
+      </p>
+     {items.map((item) => (
+         <h2 class="pt-4 mt-2  pl-1">{item.title}</h2>
+         <div class="pl-1"> 
+         <p>{item.p1}</p>
+         <p>{item.p2}</p>
+         <p>{item.p3}</p>
+        </div>
+       ))}
+       </div>
   </div>
 </section>
