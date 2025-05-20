@@ -14,12 +14,16 @@ const WorkWithMe = () => {
                 Work With Me
               </h1>
               <p class="pt-1 text-lg">
-                Most of my time is spent working on my new venture: Laughing
-                Coyote Dev. Laughing Coyote is a "web design service for small
-                businesses and creatives. I've featured this as my main project
-                to challenge my creativeness and imagination, all while
-                exploring a side hustle potential.
+                Most of my time is spent working on my latest venture:
+                <span class="font-bold text-munsell">
+                  {" "}
+                  <a href="/laughing-coyote-dev">Laughing Coyote Dev. </a>
+                </span>
+                This website is a web design service for small businesses and
+                creatives... and a way to push my creativity to the limits, all
+                while exploring side hustle potential.
               </p>
+
               {/* <p class="pt-3">
                 CREATE SHORTER VERSION::::1st paragraph, elaborate and
                 explanation of lc/ Core Idea: Position your service as a digital
@@ -31,10 +35,10 @@ const WorkWithMe = () => {
               </p> */}
 
               <a href="/laughing-coyote-dev">
-                <div class="mt-1 pl-1 flex items-center text-carribean">
+                {/* <div class="mt-1 pl-1 flex items-center text-carribean">
                   <IoOpenOutline />
                   about
-                </div>{" "}
+                </div>{" "} */}
                 <div id="img-wrapper" class="  bg-">
                   <img
                     src="https://dl.dropboxusercontent.com/scl/fi/36vnm2e663uln6akmex4d/lc.png?rlkey=lgim54nbp0u11mviylee29hyj&st=1nuybim1&dl=0"
