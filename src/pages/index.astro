@@ -3,7 +3,7 @@ import MainLayout from "../layouts/MainLayout.astro";
 import SiteCard from "../components/SiteCard.astro";
 import Contact from "../components/sections/Contact.astro";
 const allFeaturedSites = await Astro.glob("./websites/*.md");
-import WorkWithMe from "../components/sections/WorkWithMe.jsx";
+import FeaturedWork from "../components/sections/FeaturedWork.jsx";
 import Header from "../components/Header.astro";
 import About from "../components/sections/About";
 ---
@@ -26,15 +26,15 @@ import About from "../components/sections/About";
       class="text- font-medium border-l border-onyx text- md:h-screen h-full md:absolute relative right-0 sm:bottom md:w-3/5 w-full md:overflow-y-scroll overflow-x-hidden xl:p-5"
     >
       <div id="" class="bg- px-5">
-        <WorkWithMe />
+        <FeaturedWork />
 
         <div id="creative-concepts" class="bg- mr-2 mt-[155px] md:px-5">
           <h1 class="font- 2xl:text-4xl text-3xl">Creative Concepts</h1>
           <p id="services" class="bg- p-1">
-            In the rest of my free time, I enjoy building out other projects
-            with javascript frameworks and php wordpress. I've built these three
-            sites to not only categorize and simplify my life, but to be
-            creative too! So far, I've built...
+            There are my projects in progress. In the rest of my free time, I
+            enjoy building these out with javascript frameworks or php
+            wordpress. I've built these three sites to not only categorize and
+            simplify my life, but to be creative too! So far, I've built...
           </p>
           <div id="grid" class="pl-1 pr-3 grid 2xl:grid-cols-2 gap-12">
             {

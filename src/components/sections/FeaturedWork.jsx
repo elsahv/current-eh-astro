@@ -1,17 +1,17 @@
 import { IoOpenOutline } from "react-icons/io5";
 
-const WorkWithMe = () => {
+const FeaturedWork = () => {
   return (
     <section
-      id="work-with-me"
+      id="featured-work-wrapper"
       class=" opacity-100 hover:opacity-80 my-5 pt-5 py-5 md:pl-5 pl-1 bg-"
     >
       <div id="" class="mt-5 ">
         <div id="" class="md:mr-5 mx-0">
           <div class="pb-2 font- text-">
             <div id="paragraph-container" class="font- 2xl:pr-5 2xl:mr-5">
-              <h1 id="work-with-me" class="font- 2xl:text-4xl text-3xl ">
-                Work With Me
+              <h1 id="featured work-title" class="font- 2xl:text-4xl text-3xl ">
+                Featured Work
               </h1>
               <p class="pt-1 text-lg">
                 Most of my time is spent working on my latest venture:
@@ -56,4 +56,4 @@ const WorkWithMe = () => {
   );
 };
 
-export default WorkWithMe;
+export default FeaturedWork;
