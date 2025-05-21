@@ -18,14 +18,18 @@ const items = [
     paragraph:
       "paragraph1: PHP WP- y desire to learn js was initated by wanting to be more creative, and to build my 4 projects. By experiencing the process of building up these websites, I've gained not only an ability to work with unique colors, and to learn the skills needed to become a very developer.",
   },
+
+  {
+    paragraph: "contact cta",
+  },
 ];
 
 const About = () => {
   return (
     <>
       <div
-        id="paragraph-container"
-        class=" ml-2 pl-1 2xl:pr-5 2xl:mr-5 mt-[90px]"
+        id="intro"
+        class="font-semibold ml-2 pl-1 2xl:pr-5 2xl:mr-5 mt-[90px]"
       >
         <p class="text-lg">
           Hi there, I'm Elsa. I help small business owners start and maintain
@@ -50,10 +54,6 @@ const About = () => {
               </div>
             ))}
           </div>
-          <ul>
-            <li>sm</li>
-            <li>cta contact</li>
-          </ul>
         </div>
       </section>
     </>

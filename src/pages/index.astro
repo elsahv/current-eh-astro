@@ -12,18 +12,24 @@ import About from "../components/sections/About";
   <div id="flex" class="flex lg:flex-row flex-col">
     <div
       id="LEFT-SIDE"
-      class="bg border-r bwwwrder-black 2xl:p-5 p-2 bg- md:h-screen h-full md:absolute relative md:left-0 sm:bottom-0 md:w-2/5 w-full overflow-y-scroll overflow-x-hidden"
+      class="bg border-r border-black 2xl:p-5 p-2 bg- md:h-screen h-full md:absolute relative md:left-0 sm:bottom-0 md:w-2/5 w-full overflow-y-scroll overflow-x-hidden"
     >
-      <div id="left-side-container" class="md:pr-3 md:mr-1">
+      <div id="left-side-container" class="ml-1 md:pr-5 pr-2 md:mr-5 mr-3">
         <Header />
         <About />
-        <a href="/#contact">Contact cta</a>
+
+        <div
+          id="leftside-conditional-contact-wrapper"
+          class="2xl:visible invisible"
+        >
+          <Contact />
+        </div>
       </div>
     </div>
 
     <div
       id="RIGHT-SIDE"
-      class="text- font-medium border-l border-onyx text- md:h-screen h-full md:absolute relative right-0 sm:bottom md:w-3/5 w-full md:overflow-y-scroll overflow-x-hidden xl:p-5"
+      class="font-medium border-l border-onyx text- md:h-screen h-full md:absolute relative right-0 sm:bottom md:w-3/5 w-full md:overflow-y-scroll overflow-x-hidden xl:p-5"
     >
       <div id="" class="bg- px-5">
         <FeaturedWork />
@@ -50,7 +56,13 @@ import About from "../components/sections/About";
             }
           </div>
         </div>
-        <Contact />
+
+        <div
+          id="rightside-conditional-contact-wrapper"
+          class="2xl:invisible visible"
+        >
+          <Contact />
+        </div>
       </div>
     </div>
   </div>

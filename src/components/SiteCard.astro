@@ -1,20 +1,20 @@
 ---
-import FileImg from "../images/file.png";
-
 const frontmatter = Astro.props;
 const { title, image, alt, url, testItem1 } = frontmatter;
 ---
 
-<div id="sq" class="py-5 opacity-80 hover:opacity-100 hover:font-extrabold">
+<div id="sq" class="py-5 opacity-80 hover:opacity-100">
   <a href={url}>
     <div class="flex font-semibold pt-1 pb-1 pl- pr-1 bg-">
       <!-- <Image src={FileImg} alt="" width={25} height={25} /> -->
-      <h3 class="pl-1">...{title}</h3>
+      <h3 class="pl-1 font-semibold">...{title}</h3>
     </div>
 
     <img src={image} class="drop-shadow-xl border border-gray-300" alt={alt} />
   </a>
-  <div class="text- pl-2 pt-1 flex">
-    - {testItem1}
+  <div class="pl-2 pt-1 flex">
+    <button class="bg-rosyBrown text-aliceBlue rounded px-2 pb-1 mt-1">
+      - {testItem1}
+    </button>
   </div>
 </div>

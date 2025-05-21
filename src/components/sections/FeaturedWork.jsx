@@ -1,9 +1,9 @@
 import { IoOpenOutline } from "react-icons/io5";
 
-const FeaturedWork = () => {
+const WorkWithMe = () => {
   return (
     <section
-      id="featured-work-wrapper"
+      id="featured-work"
       class=" opacity-100 hover:opacity-80 my-5 pt-5 py-5 md:pl-5 pl-1 bg-"
     >
       <div id="" class="mt-5 ">
@@ -15,10 +15,10 @@ const FeaturedWork = () => {
               </h1>
               <p class="pt-1 text-lg">
                 Most of my time is spent working on my latest venture:
-                <span class="font-bold text-munsell">
+                <button class="mx-1 px-2 rounded  bg-munsell text-aliceBlue">
                   {" "}
-                  <a href="/laughing-coyote-dev">Laughing Coyote Dev. </a>
-                </span>
+                  <a href="/laughing-coyote-dev">Laughing Coyote Dev</a>.
+                </button>
                 This website is a web design service for small businesses and
                 creatives... and a way to push my creativity to the limits, all
                 while exploring side hustle potential.
@@ -56,4 +56,4 @@ const FeaturedWork = () => {
   );
 };
 
-export default FeaturedWork;
+export default WorkWithMe;
