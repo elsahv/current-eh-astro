@@ -14,27 +14,19 @@ githubUrl: "https://github.com/elsahv/-the-running-quail"
 tags: ["astro", "blogging", "learning in public"]
 ---
 
-      <AboutConcept
-          productDef="Jungle-What is the product, service, or idea you're promoting?"
-          targetAudience="Who is your target audience?"
-          mainGoal=" What is the main goal of the campaign? (e.g. brand awareness, sales, community building)"
-          audienceMessage="What feeling or message do you want the audience to take away?"
-          keyFeatures=" Are there any key features, benefits, or values that should be highlighted?"
-        />
+# **productDef-** What is the product, service, or idea you're promoting?
 
-# **headline 1-** Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil assumenda quod corrupti! Laboriosam quam quisquam quibusdam rem eum,quos vero voluptas dolorum soluta impedit asperiores molestias ipsa incidunt.
+# **targetAudience-** Who is your target audience?.
 
-# **headline 1-** a future Morongo Basin community website.
+# **mainGoal-** PHP theme and website
 
-# **headline 2-** built with LC astro templates from LC
+# **audienceMessage-** headline 4
 
-# **headline 3-** Astro framework with JS
+# **keyFeatures-** headline 4
 
-# **headline 4-** recognize the need for RQ, a way to bring Morongo Basin Artists together.
+**2/29/25**: As of now, I'm changing this site from a full webs design service to just a blog. Lesson learned... gotta walk before I run.
 
-img
-img
-img
+Share the backstory of how the website came into existence. This could include the inspiration behind its creation, the individuals or team involved, and any challenges or obstacles they faced in bringing it to life.
 
 **2/8/25**: As of now, I'm changing this site from a full webs design service to just a blog. Lesson learned... gotta walk before I run.
 
