@@ -2,37 +2,21 @@
 import MainLayout from "../layouts/MainLayout.astro";
 import SiteCard from "../components/SiteCard.astro";
 import Contact from "../components/sections/Contact.astro";
-const allFeaturedSites = await Astro.glob("./websites/*.md");
-import FeaturedWork from "../components/sections/FeaturedWork.jsx";
-import Header from "../components/Header.astro";
-import About from "../components/sections/About";
+const allFeaturedSites = await Astro.glob("./creative-concepts/*.md");
+import FeaturedWorkCTA from "../components/sections/FeaturedWorkCTA.jsx";
+import LeftSidebar from "../components/LeftSidebar.astro";
 ---
 
 <MainLayout>
-  <div id="flex" class="grid lg:grid-cols-2 grid-cols-1">
-    <div
-      id="LEFT-SIDE"
-      class="border-r border-black 2xl:p-5 p-2 2xl:h-screen 2xl:absolute relative md:left-0 sm:bottom-0 md:w-2/5 w-full overflow-y-scroll overflow-x-hidden"
-    >
-      <div id="left-side-container" class="ml-1 md:pr-5 pr-2 md:mr-5 mr-3">
-        <Header />
-        <About />
-
-        <div
-          id="leftside-conditional-contact-wrapper"
-          class="2xl:visible invisible"
-        >
-          <Contact />
-        </div>
-      </div>
-    </div>
+  <div id="flex" class="flex lg:flex-row flex-col">
+    <LeftSidebar />
 
     <div
       id="RIGHT-SIDE"
       class="font-medium border-l border-onyx 2xl:h-screen h-full md:absolute relative right-0 sm:bottom md:w-3/5 w-full md:overflow-y-scroll overflow-x-hidden xl:p-5"
     >
       <div id="" class="bg- px-5">
-        <FeaturedWork />
+        <FeaturedWorkCTA />
         <div id="creative-concepts" class="bg- mr-2 mt-[155px] md:px-5">
           <h1 class="font- 2xl:text-4xl text-3xl">Creative Concepts</h1>
           <p id="services" class="bg- p-1">

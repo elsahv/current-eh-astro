@@ -1,5 +1,3 @@
-import { IoOpenOutline } from "react-icons/io5";
-
 const WorkWithMe = () => {
   return (
     <section
@@ -11,17 +9,18 @@ const WorkWithMe = () => {
           <div class="pb-2 font- text-">
             <div id="paragraph-container" class="font- 2xl:pr-5 2xl:mr-5">
               <h1 id="featured work-title" class="font- 2xl:text-4xl text-3xl ">
-                Featured Work
+                Welcome to my Portfolio
               </h1>
+              {/* <h2>Featured Work</h2> */}
               <p class="pt-1 text-lg">
-                Most of my time is spent working on my latest venture:
+                Most of my featured work is from{" "}
                 <button class="mx-1 px-2 rounded  bg-munsell text-aliceBlue">
                   {" "}
-                  <a href="/laughing-coyote-dev">Laughing Coyote Dev</a>.
+                  <a href="/featured-work">Laughing Coyote Dev</a>
                 </button>
-                This website is a web design service for small businesses and
-                creatives... and a way to push my creativity to the limits, all
-                while exploring side hustle potential.
+                ... a web design service for small businesses and creatives...
+                and a way to push my creativity to the limits, all while
+                exploring side hustle potential.
               </p>
 
               {/* <p class="pt-3">
@@ -34,11 +33,7 @@ const WorkWithMe = () => {
                 developers from Ai? Human innovation!
               </p> */}
 
-              <a href="/laughing-coyote-dev">
-                {/* <div class="mt-1 pl-1 flex items-center text-carribean">
-                  <IoOpenOutline />
-                  about
-                </div>{" "} */}
+              <a href="/featured-work">
                 <div id="img-wrapper" class="  bg-">
                   <img
                     src="https://dl.dropboxusercontent.com/scl/fi/36vnm2e663uln6akmex4d/lc.png?rlkey=lgim54nbp0u11mviylee29hyj&st=1nuybim1&dl=0"

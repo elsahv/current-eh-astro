@@ -1,19 +1,19 @@
 ---
-import TestMarkdownHeader from "../components/tests/TestMarkdownHeader.astro";
+import LeftSidebar from "../components/LeftSidebar.astro";
 import MainLayout from "./MainLayout.astro";
 
 const { frontmatter } = Astro.props;
 ---
 
 <MainLayout>
-  <TestMarkdownHeader />
+  <LeftSidebar />
   <div id="markdown-post" class="text-lg 2xl:p-5">
     <div
       id="right-side-markdown-container"
-      class="border-l border-onyx h-screen md:absolute relative right-0 md:w-4/5 w-full overflow-y-scroll overflow-x-hidden 2xl:p-5 md:p-3"
+      class="border-l border-onyx h-screen md:absolute relative right-0 md:w-3/5 w-full overflow-y-scroll overflow-x-hidden 2xl:p-5 md:p-3"
     >
       <section class="bg- 2xl:p-5 p-2 md:mx-5 mx-1">
-        <div class="bg- flex 2xl:flex-row flex-col-reverse">
+        <div class="bg- flex flex-col-reverse">
           <img
             src={frontmatter.image.url}
             alt=""

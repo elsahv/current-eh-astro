@@ -1,7 +1,7 @@
 const items = [
   {
     paragraph:
-      "I'm based in Joshua Tree, CA. Its a place which inpires many colors I became interested in programming when I wanted to bring my own passion projects to life",
+      "I'm a web developer based in Joshua Tree, CA. I became interested in programming when I wanted to bring my own passion projects to life, and learned how to do so using javascript or php projects",
   },
   {
     paragraph:
@@ -18,19 +18,12 @@ const items = [
     paragraph:
       "paragraph1: PHP WP- y desire to learn js was initated by wanting to be more creative, and to build my 4 projects. By experiencing the process of building up these websites, I've gained not only an ability to work with unique colors, and to learn the skills needed to become a very developer.",
   },
-
-  {
-    paragraph: "contact cta",
-  },
 ];
 
 const About = () => {
   return (
     <>
-      <div
-        id="intro"
-        class="font-semibold ml-2 pl-1 2xl:pr-5 2xl:mr-5 mt-[90px]"
-      >
+      <div id="intro" class=" ml-2 pl-1 2xl:pr-5 2xl:mr-5 mt-[90px]">
         <p class="text-lg">
           Hi there, I'm Elsa. I help small business owners start and maintain
           their websites, along with content creation.
@@ -40,7 +33,7 @@ const About = () => {
 
       <section
         id="about-content-wrapper"
-        class=" opacity-90 hover:opacity-100 "
+        class="bg- opacity-90 hover:opacity-100 "
       >
         <div id="about-me" class="bg- mb-5 pb-5">
           <img
