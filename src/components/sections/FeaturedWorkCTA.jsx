@@ -8,19 +8,24 @@ const WorkWithMe = () => {
         <div id="" class="md:mr-5 mx-0">
           <div class="pb-2 font- text-">
             <div id="paragraph-container" class="font- 2xl:pr-5 2xl:mr-5">
-              <h1 id="featured work-title" class="font- 2xl:text-4xl text-3xl ">
-                Welcome to my Portfolio
+              <h1 id="featured work-title" class="text-slate-600 text-xl ">
+                Laughing Coyote Dev
               </h1>
-              {/* <h2>Featured Work</h2> */}
-              <p class="pt-1 text-lg">
-                Most of my featured work is from{" "}
+              <h2 class="text-3xl pt-1">
+                A Web Design Service for creative small businesses
+              </h2>
+
+              <p class="pt-1 text-lg mr-5 pr-5 mt-1 ">
+                My featured website is a
                 <button class="mx-1 px-2 rounded  bg-munsell text-aliceBlue">
-                  {" "}
-                  <a href="/featured-work">Laughing Coyote Dev</a>
+                  <a href="/featured-work">web design </a>
                 </button>
-                ... a web design service for small businesses and creatives...
-                and a way to push my creativity to the limits, all while
-                exploring side hustle potential.
+                service for small businesses and creatives. I help small
+                business owners start and maintain their websites, along with
+                content creation. and a way to push my creativity to the limits,
+                all while exploring side hustle potential. My days are spent
+                creating niche websites and solutions for small business owners
+                and creatives.
               </p>
 
               {/* <p class="pt-3">

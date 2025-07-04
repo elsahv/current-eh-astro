@@ -13,6 +13,8 @@ image:
 websiteUrl: "https://writingtobetterhealth.com"
 githubUrl: "https://github.com/elsahv/-the-running-quail"
 tags: ["astro", "blogging", "learning in public"]
+language: "php"
+backend: "wp"
 ---
 
 # **productDef-** What is the product, service, or idea you're promoting?

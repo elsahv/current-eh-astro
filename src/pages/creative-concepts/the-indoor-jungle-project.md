@@ -2,7 +2,7 @@
 id: 4
 layout: ../../layouts/MarkdownPostLayout.astro
 # title: "My First Blog Post"
-title: "The Indoor Jungle Project"
+title: "The Indoor Jungle Project,"
 pubDate: 2022-07-01
 testItem1: "a horror-themed botany journal"
 author: "Astro Learner"
@@ -12,6 +12,8 @@ image:
 websiteUrl: "https://theindoorjungleproject.com"
 githubUrl: "https://github.com/elsahv/-the-running-quail"
 tags: ["astro", "blogging", "learning in public"]
+language: "php"
+backend: "wp"
 ---
 
 # visit graphic journal

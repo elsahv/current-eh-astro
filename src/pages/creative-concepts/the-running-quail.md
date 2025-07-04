@@ -2,7 +2,7 @@
 id: 1
 layout: ../../layouts/MarkdownPostLayout.astro
 # layout: ../test.astro
-title: "The Running Quail"
+title: "The Running Quail,"
 pubDate: 2022-07-01
 testItem1: "a collection of jt experiences. Eventually invite locals to participate"
 author: "Astro Learner"
@@ -12,6 +12,8 @@ image:
 websiteUrl: "https://therunningquail.com"
 githubUrl: "https://github.com/elsahv/-the-running-quail"
 tags: ["astro", "blogging", "learning in public"]
+language: "react"
+backend: "full-stack"
 ---
 
 # **productDef-** What is the product, service, or idea you're promoting?

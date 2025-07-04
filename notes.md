@@ -1,7 +1,14 @@
+<!-- TODO: 5/24: SIMPLIFY ORGANIZE SECTIONS-->
+<!-- ! TREE: -->
+<!--! <header /> -->   <!--! <featuredWork /> -->
+<!--! <about />  -->   <!--! <creativeProjects /> -->
+<!--! <contact /> -->
+<!-- TODO: 5/24: ^-->
+
 CURRENT: 5/14/25
 
             \_ <AboutConcept
-                      productDef="Jungle-What is the product, service, or idea you're promoting?"
+           productDef="Jungle-What is the product, service, or idea you're promoting?"
           targetAudience="Who is your target audience?"
           mainGoal=" What is the main goal of the campaign? (e.g. brand awareness, sales, community building)"
           keyFeatures=" Are there any key features, benefits, or values that should be highlighted?"

@@ -6,15 +6,13 @@ const { title, image, alt, url, testItem1 } = frontmatter;
 <div id="sq" class="py-5 opacity-80 hover:opacity-100">
   <a href={url}>
     <div class="flex font-semibold pt-1 pb-1 pl- pr-1 bg-">
-      <!-- <Image src={FileImg} alt="" width={25} height={25} /> -->
       <h3 class="pl-1 font-semibold">...{title}</h3>
     </div>
-
     <img src={image} class="drop-shadow-xl border border-gray-300" alt={alt} />
   </a>
   <div class="pl-2 pt-1 flex">
-    <button class="text-rosyBrown font-bold rounded px-2 pb-1 mt-1">
+    <p class="text-rosyBrown font-bold rounded px-2 pb-1 mt-1">
       - {testItem1}
-    </button>
+    </p>
   </div>
 </div>

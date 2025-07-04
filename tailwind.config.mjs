@@ -12,9 +12,9 @@ export default {
         com: ["Comfortaa", "cursive"],
       },
       colors: {
-        carribean: "#15616D",
         munsell: "#0792a5",
         cerulean: "#007ba5",
+        carribean: "#15616D",
         onyx: "#313638",
         aquamarine: "#7FFFD4",
         parchment: "#f0ead2",
