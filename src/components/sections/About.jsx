@@ -14,8 +14,16 @@ const items = [
 const About = () => {
   return (
     <>
-      <div id="intro" class=" ml-2 pl-1 2xl:pr-5 2xl:mr-5 mt-[90px]">
-        <p class="text-lg pt-5 pb-2">
+      <div id="intro" className=" ml-2 pl-1 2xl:pr-5 2xl:mr-5 mt-[90px]">
+        {/* <p className="text-lg pt-5 pb-2">
+          Hi there, I'm Elsa. I enjoy{" "}
+          <span className="underline">
+            <a href="/#about-me"> creating websites </a>
+          </span>
+          and combining niches and creating art.
+        </p> */}
+
+ <p className="text-lg pt-5 pb-2">
           Hi there, I'm Elsa. I enjoy{" "}
           <span className="underline">
             <a href="/#about-me"> creating websites </a>
@@ -26,16 +34,16 @@ const About = () => {
 
       <section
         id="about-content-wrapper"
-        class="bg- opacity-90 hover:opacity-100 "
+        className="bg- opacity-90 hover:opacity-100 "
       >
-        <div id="about-me" class="bg- mb-5 pb-5">
+        <div id="about-me" className="bg- mb-5 pb-5">
           <img
             src="https://dl.dropboxusercontent.com/scl/fi/v987mn7uciubojuyzt2l0/eh-img.jpg?rlkey=kud67wutqibhy9iwna9z50679&st=4vy6xe1e&dl=0"
             alt=""
-            class="2xl:w-1/2 w-3/4 mt-2  pr-5 pl-2"
+            className="2xl:w-1/2 w-3/4 mt-2  pr-5 pl-2"
           />
-          <div id="about" class="pl-3 pt-5">
-            <h3 class="font-bold text-xl">About</h3>
+          <div id="about" className="pl-3 pt-5">
+            <h3 className="font-bold text-xl">About</h3>
             {items.map((item) => (
               <div>
                 <p className="pb-2 mb-3">{item.paragraph} </p>

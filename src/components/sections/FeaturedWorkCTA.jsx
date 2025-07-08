@@ -11,9 +11,9 @@ const WorkWithMe = () => {
               <h1 id="featured work-title" class="text-slate-600 text-xl ">
                 Laughing Coyote Dev
               </h1>
-              <h2 class="text-3xl pt-1">
-                A Web Design Service for creative small businesses
-              </h2>
+              <p class="text-3xl pt-1">
+                A web design service for creative small businesses.
+              </p>
 
               <p class="pt-1 text-lg mr-5 pr-5 mt-1 ">
                 My featured website is a
