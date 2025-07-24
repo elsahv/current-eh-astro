@@ -1,0 +1,48 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import Contact from "../components/sections/Contact.astro";
+const allFeaturedSites = await Astro.glob("./languages/*.md");
+import LcCta from "../components/sections/LcCta.jsx";
+import Card from "../components/ui/Card.astro";
+import LeftPanel from "../layouts/LeftPanel.astro";
+---
+
+<MainLayout>
+  <div id="homepage-wrapper" class="flex lg:flex-row flex-col">
+    <div
+      id="RIGHT-PANEL"
+      class="px-5 font-medium border-l border-onyx 2xl:h-screen h-full md:absolute relative right-0 sm:bottom md:w-3/5 w-full md:overflow-y-scroll overflow-x-hidden xl:p-5"
+    >
+      <LcCta />
+      <!--ALL WORKS -->
+      <div id="all-works" class="bg- mr-2 mt-[155px] md:px-5">
+        <h2 class="text-3xl">All Works</h2>
+        <p id="services" class="bg- p-1">
+          I enjoy working on multiple projects, I currently work with...
+        </p>
+        <div
+          id="
+            grid"
+          class="pl-1 pr-3 grid 2xl:grid-cols-2 gap-12"
+        >
+          {
+            allFeaturedSites.map((work) => (
+              <Card
+                title={work.frontmatter.title}
+                image={work.frontmatter.image.url}
+                alt={work.frontmatter.image.alt}
+                url={work.url}
+                testItem1={work.frontmatter.testItem1}
+                language={work.frontmatter.language}
+                backend={work.frontmatter.backend}
+              />
+            ))
+          }
+        </div>
+      </div>
+      <div id="conditional-contact-wrapper" class="2xl:invisible visible">
+        <Contact />
+      </div>
+    </div>
+  </div>
+</MainLayout>
