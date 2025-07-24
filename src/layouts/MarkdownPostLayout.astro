@@ -19,15 +19,20 @@ const { frontmatter } = Astro.props;
             class="w-[1100px] drop-shadow-md border border-gray-300 rounded mt-3"
           />
           <div class="mt-5 pt-5 2xl:pl-4">
-            <h1 class="text-4xl font-">{frontmatter.title}</h1>
+            <h1 class="text-4xl">{frontmatter.title}</h1>
             <p class="pt-1 pr-2 md:pl-1 text-lg">
               {frontmatter.testItem1}
             </p>
           </div>
         </div>
-        <div id="website-content" class="pl-5 2xl:w-3/4 pt-4 dropshadow-3xl">
-          <div class="pt-2 opacity-80 text-lg">
-            <slot />
+        <div
+          id="website-content"
+          class="space-y-4 pl-3 2xl:w-3/4 pt-4 dropshadow-3xl"
+        >
+          <div class="bg- my-5 py-5 pt-2 opacity-80 text-lg">
+            <div class="py-5">
+              <slot />
+            </div>
           </div>
         </div>
       </section>

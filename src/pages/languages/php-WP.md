@@ -17,7 +17,12 @@ backend: "full-stack"
 ---
 
 - WTBH- "an illustrative blog about cooking for neurodivergents"
-- <img src="https://dl.dropboxusercontent.com/scl/fi/jtfnbqyqk5ly03x5kspuz/wtbh-3-26-24.png?rlkey=0igc90thtm07w1i9cardfeu3h&st=vr843y6n&dl=0" alt="Writing to Better Health" class="border border-black mb-5"/>
 
-- Jungle- a horror-themed botany journal
-  <img src="https://dl.dropboxusercontent.com/scl/fi/zv3elxicfwfnvcgcukyse/X692YR9w.jpeg?rlkey=q9eoc6xwzuls89ghj1rtnxgao&st=qs2wwr3w&dl=0" alt="The Indoor Jungle Project" class="border border-black mb-5"/>
+<a href="https://writingtobetterhealth.com" target="_blank">
+  <img src="https://dl.dropboxusercontent.com/scl/fi/jtfnbqyqk5ly03x5kspuz/wtbh-3-26-24.png?rlkey=0igc90thtm07w1i9cardfeu3h&st=vr843y6n&dl=0" alt="Writing to Better Health" class="mb-5 " />
+</a>
+
+- Jungle- a horror-themed botany journal  
+  <a href="https://writingtobetterhealth.com" target="_blank">
+  <img src="https://images.pexels.com/photos/3571563/pexels-photo-3571563.jpeg" alt="The Indoor Jungle Project" class="border border-black"/>
+  </a>

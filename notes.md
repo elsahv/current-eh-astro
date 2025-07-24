@@ -39,12 +39,6 @@
 <!-- ^ -->
 <!-- ^ -->
 
-<!-- : 5/24: SIMPLIFY ORGANIZE SECTIONS-->
-<!-- ! TREE: -->
-<!--! <header /> -->   <!--! <featuredWork /> -->
-<!--! <about />  -->   <!--! <creativeProjects /> -->
-<!--! <contact /> -->
-
 CURRENT: 5/14/25
 
             \_ <AboutConcept
@@ -57,10 +51,6 @@ CURRENT: 5/14/25
         />
 
 <!--! 4/30/25- undecided about sections, seperate into section numbers -->
-
-section 1 comp- web development
-section 2 comp- writing services
-section 3 comp- contact
 
  <!-- I weave creativity into practical code. During the last few years, I've learned how to program web sites using
         javascript and javascript frameworks. I've utilized resources such as: youtube
