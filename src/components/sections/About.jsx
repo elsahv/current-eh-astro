@@ -5,17 +5,16 @@ const About = () => {
         {/* // - Introduction: Start with your name and a brief overview of who you are. Mention your profession or primary identity (e.g., student, artist, entrepreneur). */}
         <h1 class="text-2xl">Hi there, I'm Elsa...</h1>
         <h2 id="tagline" className="text-lg pb-1">
-          I'm a web developer who works with javascript frameworks and custom
-          wordpress themes. I build and declutter messy websites... and turn
-          them into clean, high-performing designs.
+          I weave fictional stories and real-life, web-development stuff
+          together, all with javascript-frameworks and custom wordpress-themes.
         </h2>
-        <img
+        {/* <img
           src="https://dl.dropboxusercontent.com/scl/fi/heaqjsf9d0s5nkfe0t2lo/favicon.jpg?rlkey=slv7349isqhpw5wgwuylacv3f&st=ofkjioel&dl=0"
           alt="favicon"
           width={64}
           height={64}
           className="py-1 my-5 border border-slate-400 rounded"
-        />
+        /> */}
       </div>
       <section
         id="about-content-wrapper"
@@ -43,6 +42,8 @@ const About = () => {
               to the limits, all while exploring side hustle potential.
             </p>
             {/* - Skills & Strengths: Mention key skills or strengths that define you professionally or personally. */}
+            I build and declutter messy websites... and turn them into clean,
+            high-performing designs.
             <p>
               Now I do the same for other clients... my days are spent creating
               niche websites and solutions for small business owners and
@@ -51,7 +52,6 @@ const About = () => {
                 here.
               </a>
             </p>
-
             {/* - Personal Philosophy/Values: Share your core values, guiding principles, or a brief personal philosophy. */}
             {/* - Future Aspirations: End with a note on your future goals or aspirations, giving readers insight into what you're working toward. */}
           </div>

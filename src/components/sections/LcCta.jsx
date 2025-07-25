@@ -12,6 +12,7 @@ const LaughingCoyoteDev = () => {
                 Featured Website
               </h1>
               <h2 class="text-3xl pt-1">Laughing Coyote Dev-</h2>
+              <p></p>
               <p class="pt-1 text-lg mr-5 pr-5 mt-1 ">
                 a
                 <button class="ml-2 mr-1 px-2 rounded  bg-munsell text-aliceBlue">

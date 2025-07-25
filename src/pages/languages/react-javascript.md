@@ -16,7 +16,10 @@ language: "php"
 backend: "wp"
 ---
 
-- RUNNING QUAIL: combine love of high desert community with the goal of keeping small businesses in touch
+- RUNNING QUAIL: DESERT STORYTELLING- both truth and fiction, What if I created a experimental, storytelling- both fiction and truth board? Based in Morongo Basin? I personally weave DESERT STORIES stories with POLYMER CLAY PROJECTS? combine love of high desert community with the goal of keeping small businesses in touch.
+-
+-
+-
 
 <img src="https://dl.dropboxusercontent.com/scl/fi/zdvqgpkxstz9g3vr5k70l/1-2-25-rq.png?rlkey=nnsad2qpj4i0e3bti5gkqy8gf&st=46k5gk9p&dl=0" alt="The Running Quail" class="border border-black mb-5"/>
 

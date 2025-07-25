@@ -1,3 +1,5 @@
+     <h2 id="tagline" className="text-lg pb-1">I declutter and build websites with neurodivergent users in mind, and help simplify the overwhelm</h2>
+
 <!-- V -->
 <!-- V -->
 <!-- V -->
@@ -8,17 +10,12 @@
 
    <!-- *ABOUT LC -->
 
-     <p> most web design services focus on tech, speed, or business optimization. Few lean into artisanal design, emotional storytelling, and cozy aesthetics the way this concept (lc) does.</p>
-
 <!--  -->
 <section class="py-3 pl-1" id="TARGET AUDIENCE">
 <h2>TARGET AUDIENCE</h2>
 <p>The people I'm looking to serve...</p>
 <p class="bg-">
-  Unique Selling Point: You're not just designing websites—you’re
-  co-creating digital homes for passionate people. You get their
-  creative process because you share it. More than just a website,
-  a viewing experience that conveys your message.
+ 
 </p>
 </section>
 <!--  -->
@@ -68,13 +65,3 @@ CURRENT: 5/14/25
 
 git commit notes:
 "section category change, from languages to simple portfolio"
-
-**_CURRENTLY DOING: CREATE CONTENT v_**
-
-- Introduction: Start with your name and a brief overview of who you are. Mention your profession or primary identity (e.g., student, artist, entrepreneur).
-- Background: Include details about your background, such as where you're from, educational history, or career path.
-- Passions & Interests: Highlight your main passions, hobbies, or things that drive you (e.g., travel, technology, art, helping others).
-- Skills & Strengths: Mention key skills or strengths that define you professionally or personally.
-- Personal Philosophy/Values: Share your core values, guiding principles, or a brief personal philosophy.
-- Future Aspirations: End with a note on your future goals or aspirations, giving readers insight into what you're working toward.
-  **_CURRENTLY DOING CREATE CONTENT^_**
