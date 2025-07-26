@@ -9,12 +9,12 @@ const LaughingCoyoteDev = () => {
           <div class="pb-2 font- text-">
             <div id="paragraph-container" class="font- 2xl:pr-5 2xl:mr-5">
               <h1 id="featured work-title" class="text-slate-600 text-xl ">
-                Featured Website
+                view featured website
               </h1>
               <h2 class="text-3xl pt-1">Laughing Coyote Dev-</h2>
               <p></p>
               <p class="pt-1 text-lg mr-5 pr-5 mt-1 ">
-                a
+                A
                 <button class="ml-2 mr-1 px-2 rounded  bg-munsell text-aliceBlue">
                   <a href="/featured-work"> digital creative studio</a>
                 </button>

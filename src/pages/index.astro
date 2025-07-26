@@ -4,7 +4,6 @@ import Contact from "../components/sections/Contact.astro";
 const allFeaturedSites = await Astro.glob("./languages/*.md");
 import LcCta from "../components/sections/LcCta.jsx";
 import Card from "../components/ui/Card.astro";
-import LeftPanel from "../layouts/LeftPanel.astro";
 ---
 
 <MainLayout>
@@ -14,7 +13,6 @@ import LeftPanel from "../layouts/LeftPanel.astro";
       class="px-5 font-medium border-l border-onyx 2xl:h-screen h-full md:absolute relative right-0 sm:bottom md:w-3/5 w-full md:overflow-y-scroll overflow-x-hidden xl:p-5"
     >
       <LcCta />
-      <!--ALL WORKS -->
       <div id="all-works" class="bg- mr-2 mt-[155px] md:px-5">
         <h2 class="text-3xl">All Works</h2>
         <p id="services" class="bg- p-1">

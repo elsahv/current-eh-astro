@@ -2,6 +2,7 @@
 import MainLayout from "../layouts/MainLayout.astro";
 import BackBtn from "../components/ui/BackBtn.astro";
 import WebsitesGrid from "../components/lc-tests/WebsitesGrid.astro";
+import AboutLC from "../components/sections/AboutLC.astro";
 ---
 
 <MainLayout>
@@ -19,7 +20,7 @@ import WebsitesGrid from "../components/lc-tests/WebsitesGrid.astro";
           id="laughing-coyote-dev"
           class="pl-1 2xl:text-4xl text-3xl font-semibold"
         >
-          Laughing Coyote Dev-
+          Featured Website
         </h1>
 
         <a
@@ -35,25 +36,9 @@ import WebsitesGrid from "../components/lc-tests/WebsitesGrid.astro";
           />
         </a>
       </div>
-      <!-- TODO: 6/23/25-  FILL OUT CONTENT SECOND -->
-      <!--* ABOUT LC -->
-      <p>
-        "Where others chase speed and systems, Laughing Coyote Dev chooses story
-        and soul. Through LC, I not only design websites, I creating digital
-        homes for passionate creatives and business owners. You get their
-        creative process because you share it.
-      </p>
-      <!-- *MAIN GOALS -->
-      <p>
-        More than just a website, a viewing experience that conveys your
-        message.
-      </p>
-
-      <!--* KEY FEATURES -->
-      <p></p>
-
-      <!-- GALLERY -->
+      <AboutLC />
       <WebsitesGrid />
     </div>
   </div>
 </MainLayout>
++

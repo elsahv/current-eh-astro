@@ -1,18 +1,18 @@
 ---
+import AboutMe from "../components/sections/AboutMe.astro";
 import Contact from "../components/sections/Contact.astro";
 import Header from "../components/ui/Header.astro";
-import About from "../components/sections/About";
 ---
 
 <div
-  id="LEFT-PANEL"
+  id="LEFT-PANEL-wrapper"
   class="bg- border-r border-black 2xl:p-5 p-2 md:h-screen 2xl:absolute relative md:left-0 sm:bottom-0 md:w-2/5 w-full overflow-y-scroll overflow-x-hidden"
 >
-  <div id="left-side-container" class="bg- ml-1 md:pr-5 pr-2 md:mr-5 mr-3">
+  <div id="left-panel-container" class="ml-1 md:pr-5 pr-2 md:mr-5 mr-3">
     <Header />
-    <About />
+    <AboutMe />
     <div
-      id="leftside-conditional-contact-wrapper"
+      id="left-panel-conditional-contact-wrapper"
       class="2xl:visible invisible"
     >
       <Contact />
